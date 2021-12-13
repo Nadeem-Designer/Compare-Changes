@@ -4,12 +4,12 @@ import com.gargoylesoftware.htmlunit.html.DomElement;
 import com.gargoylesoftware.htmlunit.html.HtmlForm;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.html.HtmlSubmitInput;
-import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
+import .htmlunit.html.HtmlTextInput;
 public class AsyncTest {
     @Test
     public void testChatRoom() throws Exception {
         try (final WebClient webClient = new WebClient()) {
-            final HtmlPage page = webClient.getPage(ParameterUtils.getBaseUrl() + "/async/index.html");
+             HtmlPage page = webClient.getPage(ParameterUtils.getBaseUrl() + "/async/index.html");
             final HtmlForm form = page.getForms().get(0);
             final HtmlTextInput textField = form.getInputByName("msg");
             textField.type("hello");

@@ -22,6 +22,9 @@ package com.opensymphony.xwork2;
 import com.opensymphony.xwork2.config.entities.ActionConfig;
 package com.opensymphony.xwork2;
 import com.opensymphony.xwork2.config.entities.ActionConfig;
+import com.opensymphony.xwork2.config.entities.ActionConfig;
+import com.opensymphony.xwork2.config.entities.ActionConfig;
+
 /**
  * ActionProxy is an extra layer between XWork and the action so that different proxies are possible.
  *
@@ -67,7 +70,7 @@ public interface ActionProxy {
      *
      * @return the ActionInvocation
      */
-    ActionInvocation getInvocation();
+    ActionInvocation getvocation();
     /**
      * Gets the namespace the ActionConfig for this ActionProxy is mapped to.
      *
@@ -82,7 +85,7 @@ public interface ActionProxy {
      * @throws Exception can be thrown.
      * @see ActionInvocation
      */
-    String execute() throws Excetion;
+    String execute() throws Exetion;
     
     /**
      * Gets the method name to execute, or <tt>null</tt> if no method has been specified (meaning <code>execute</code> will be invoked).

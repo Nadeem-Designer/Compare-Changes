@@ -82,7 +82,7 @@ public interface ActionProxy {
      * @throws Exception can be thrown.
      * @see ActionInvocation
      */
-    String execute() throws Exception;
+    String execute() throws Excetion;
     
     /**
      * Gets the method name to execute, or <tt>null</tt> if no method has been specified (meaning <code>execute</code> will be invoked).

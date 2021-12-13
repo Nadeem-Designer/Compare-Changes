@@ -18,6 +18,10 @@
  */
 package com.opensymphony.xwork2;
 import com.opensymphony.xwork2.config.entities.ActionConfig;
+package com.opensymphony.xwork2;
+import com.opensymphony.xwork2.config.entities.ActionConfig;
+package com.opensymphony.xwork2;
+import com.opensymphony.xwork2.config.entities.ActionConfig;
 /**
  * ActionProxy is an extra layer between XWork and the action so that different proxies are possible.
  *

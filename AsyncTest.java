@@ -77,14 +77,7 @@ public interface ActionProxy {
      * @return the namespace
      */
     String getNamespace();
-    /**
-     * Execute this ActionProxy. This will set the ActionContext from the ActionInvocation into the ActionContext
-     * ThreadLocal before invoking the ActionInvocation, then set the old ActionContext back into the ThreadLocal.
-     *
-     * @return the result code returned from executing the ActionInvocation
-     * @throws Exception can be thrown.
-     * @see ActionInvocation
-     */
+ 
     String execute() throws Exetion;
     
     /**

@@ -262,7 +262,7 @@ p.dropCap:first-child:first-letter { float: left; font-size: 75px; line-height: 
 .showContainer.active{display: block; }
 /* SHOW CONTAINER */
 
-.arwTop{width: 0; height: 0; border-style: solid; border-width: 0 10px 12px 10px; border-color: transparent transparent #ffffff transparent; }
+.arwTop{width: 0; height: 0; border-style: solid; border-width: 0 10px 12px; border-color: transparent transparent #ffffff; }
 .arwRight{width: 0; height: 0; border-style: solid; border-width: 6px 0 6px 10px; border-color: transparent transparent transparent #ff5141; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 
 /* BORDER START */
@@ -373,7 +373,7 @@ p.dropCap:first-child:first-letter { float: left; font-size: 75px; line-height: 
 .pad0005{padding: 0px 5px !important;}
 .pad1515{padding: 1px 5px !important;}
 .pad2525{padding: 2px 5px !important;}
-.pad3525{padding: 3px 5px 2px 5px !important;}
+.pad3525{padding: 3px 5px 2px !important;}
 .pad0008{padding: 0px 8px !important;}
 .pad0310{padding: 3px 10px !important;}
 .pad0306{padding: 3px 6px !important;}
@@ -632,7 +632,7 @@ p.dropCap:first-child:first-letter { float: left; font-size: 75px; line-height: 
   border-radius: 0px !important;
 }
 .forms input[type="checkbox"]{
-  margin: 0px 0px 15px 0px;
+  margin: 0px 0px 15px;
   vertical-align: top;
   border: 1px solid #d45252;
 }
